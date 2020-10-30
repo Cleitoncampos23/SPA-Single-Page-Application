@@ -13,7 +13,14 @@
     <script src="./bootstrap/js/bootstrap.min.js" defer></script>
 </head>
 <body>
-    <div class="container">
+    <ul>
+        <li><a href="#sobre-nos">Sobre Nós</a></li>
+        <li><a href="#nossos-projetos">Nossos Projetos</a></li>
+        <li><a href="#depoimentos"> Depoimentos</a></li>
+        <li><a href="#video">Video</a></li>
+        <li><a href="#contato">Contato</a></li>
+    </ul>
+    <div id="sobre-nos" class="container">
         <h1 data-toggle="collapse" data-target="p">Sobre Nós</h1>
         <img class="img-responsive" src="./assets/img/empresa.jpg" alt="" srcset="">
         <div class="panel-group " id="paineis-sobre">
@@ -55,7 +62,7 @@
                 <p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
             </div>
           </div>
-        <section class="container">
+        <section id="nossos-projetos" class="container">
             <h1>Nossos Projetos</h1>
         <figure class="thumbnail">
             <img class="img-responsive" src="./assets/img/projetos/casa-castelo.png" alt="foto da casa castelo" srcset="">
@@ -94,7 +101,8 @@
         </figure>
     </section>
 
-    <h3 class="Depoimentos">Depoimentos de Clientes</h3>
+    <section id="depoimentos">
+    <h3 class="Depoimentos titulo-depoimentos">Depoimentos de Clientes</h3>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
@@ -138,13 +146,14 @@
         <span class="sr-only">Next</span>
     </a>
     </div>
-    <div class="container">
+</section>
+    <div  id="video" class="container">
     <h2>Video Institucional</h2>
     <div class="embed-responsive embed-responsive-16by9">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/SRCeAIW_6tU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
     </div>
-    <section class="container">
+    <section id="contato" class="container">
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
         <form action="">
