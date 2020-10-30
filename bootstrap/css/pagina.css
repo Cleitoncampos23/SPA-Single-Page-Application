@@ -13,3 +13,30 @@
 
 }
 
+
+
+.contato-select, .group-radio {
+
+    width: 50%;
+    vertical-align: middle;
+
+}
+
+
+.group-radio .radio:first-child{
+
+    margin-top: 0;
+
+}
+
+footer {
+
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer address:last-child{
+
+    margin-bottom: 0;
+}

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/bootstrap/css/pagina.css">
+    <link rel="stylesheet" href="bootstrap/css/pagina.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <script src="./bootstrap/js/bootstrap.min.js" defer></script>
@@ -147,7 +147,6 @@
     <section>
         <h2>Contato</h2>
         <p>Entre em contato conosco</p>
-
         <form action="">
             <div class="form-group">
                 <label for="contato-name"> Nome:</label>
@@ -160,8 +159,40 @@
                     <input type="email" class="form-control" id="contato-email" placeholder="Seu email">
                 </div>
             </div>
+            <div class="group-radio">
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="tipo-pessoa" checked>
+                        Pessoa Física
+                    </label>
+
+                    <label for="">
+                        <input type="radio" name="tipo-pessoa">
+                        Pessoa Juridica
+                </label>
+                </div>
+            </div>
+            <!--
+
+            -->
+            <select class="contato-select form-control">
+                <option disabled selected>Tipo de solicitação</option>
+                <option value="">Casa</option>
+                <option value="">Apartamento</option>
+                <option value="">Mansão</option>
+            <select>
+            <button type="button" class="btn btn-primary" type="submit">Enviar</button>
         </form>
     </section>
+    <footer>
+        <address>
+            <strong>TopcasaFina Arquitetura</strong>
+            Rua Vergueiro,3185, Vila Mariana<br>
+            São Paulo, SP<br>
+            Tel: (11) 5571-2751 ou 5083-3884<br>
+            E-mail: contato.topcasafina@alura.com.br <br>
+        </address>
+    </footer>
     </div>
 </body>
 </html>
